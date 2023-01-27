@@ -1,0 +1,11 @@
+.main-text {
+    color: rgb(137, 130, 144);
+}
+
+#text-in-p{
+    color: aquamarine;
+}
+
+div b, div i {
+    color: chartreuse;
+}
