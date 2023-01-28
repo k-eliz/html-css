@@ -1,34 +1,14 @@
-.main-link {
-    color: rgb(171, 87, 255);
-    text-decoration: none;
+#first{
+    /* background-color: hotpink;
+    background-image: url("https://img2.goodfon.ru/original/6000x4000/3/56/abstract-colors-unreal-clouds.jpg");
+    background-image: no-repeat;
+    background-image: center; */
+    
+    background: hotpink url("https://img2.goodfon.ru/original/6000x4000/3/56/abstract-colors-unreal-clouds.jpg") no-repeat center;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
-#some_id::after{
-    content:'123';
-    color: rebeccapurple;
-}
-
- p.text:not(:empty)::after{
-    content: "Some";
- }
-
-.main-link:hover{
-    color: aqua;
-    text-decoration: overline;
-    text-decoration-color: black;
-    cursor: pointer;
-}
-
-.main-link:active{
-    text-decoration: line-through;
-}
-.main-link:visited{
-    text-decoration: line-through;
-    color: blue;
-}
-
-
-input { color: blue;}
-input:focus {
-    color: red;
+#second{
+    height: 2000px;
 }
