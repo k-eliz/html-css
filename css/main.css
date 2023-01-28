@@ -1,14 +1,17 @@
-#first{
-    /* background-color: hotpink;
-    background-image: url("https://img2.goodfon.ru/original/6000x4000/3/56/abstract-colors-unreal-clouds.jpg");
-    background-image: no-repeat;
-    background-image: center; */
-    
-    background: hotpink url("https://img2.goodfon.ru/original/6000x4000/3/56/abstract-colors-unreal-clouds.jpg") no-repeat center;
-    height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-}
-#second{
-    height: 2000px;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.main-text{
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-decoration: line-through;
+    cursor: copy;
 }
